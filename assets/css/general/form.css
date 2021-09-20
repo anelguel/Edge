@@ -1,3 +1,29 @@
+input[type=email], 
+input[type=password], 
+input[type=text], 
+input[type=submit],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid var(--mid-gray-color);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+input[type="submit"] { 
+  cursor: pointer
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+/* Default code:
 input[type="text"],
 input[type="password"],
 input[type="email"] {
@@ -9,4 +35,4 @@ input[type="email"] {
     font-size: 16px;
     border-radius: 5px;
     appearance: none;
-}
+} */
