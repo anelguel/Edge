@@ -10,20 +10,3 @@ input[type="email"] {
     border-radius: 5px;
     appearance: none;
 }
-input[type="submit"] {
-    cursor: pointer
-}
-textarea {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 1px solid var(--mid-gray-color);
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 15px;
-    width: 100%;
-}
-  fieldset {
-    border: none;
-    padding: 0;
-}
