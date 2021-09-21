@@ -1,8 +1,8 @@
-input[type="email"], 
-input[type="password"], 
 input[type="text"], 
-input[type="submit"],
+input[type="password"], 
+input[type="email"], 
 textarea {
+    padding: 10px 15px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
